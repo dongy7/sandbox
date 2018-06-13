@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.code-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.code {
+  display: flex;
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.CodeMirror {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.react-codemirror2 {
+  width: 100%;
+  height: 100%;
+}
+
+.Button {
+  color: white;
+  border-radius: 3px;
+  padding: 0.25em 1em;
+  margin: 0px 0.5em 0px 0px;
+  background: rgb(51, 105, 231);
+  border-width: 2px;
+  border-style: solid;
+  border-image: initial;
+  border-color: rgb(51, 105, 231);
+}
